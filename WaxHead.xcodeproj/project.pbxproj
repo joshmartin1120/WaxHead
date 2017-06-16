@@ -12,7 +12,12 @@
 		963AF3F81EF44ADF00336C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3F61EF44ADF00336C79 /* Main.storyboard */; };
 		963AF3FB1EF44ADF00336C79 /* WaxHead.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */; };
 		963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3FC1EF44ADF00336C79 /* Assets.xcassets */; };
-		963AF4001EF44ADF00336C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */; };
+		963AF4081EF44FA900336C79 /* Maggot Brain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 963AF4071EF44FA900336C79 /* Maggot Brain.jpeg */; };
+		963AF40A1EF4509100336C79 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF4091EF4509100336C79 /* Launch.storyboard */; };
+		963AF40C1EF4514300336C79 /* RecordStore.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 963AF40B1EF4514300336C79 /* RecordStore.jpeg */; };
+		963AF40E1EF4528300336C79 /* RecordSpin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 963AF40D1EF4528300336C79 /* RecordSpin.gif */; };
+		963AF4101EF454A200336C79 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AF40F1EF454A200336C79 /* RecordViewController.swift */; };
+		965B2BF11EF4646400131ED8 /* Empty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 965B2BF01EF4646400131ED8 /* Empty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +27,13 @@
 		963AF3F71EF44ADF00336C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		963AF3FA1EF44ADF00336C79 /* WaxHead.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaxHead.xcdatamodel; sourceTree = "<group>"; };
 		963AF3FC1EF44ADF00336C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		963AF3FF1EF44ADF00336C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963AF4011EF44ADF00336C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963AF4071EF44FA900336C79 /* Maggot Brain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Maggot Brain.jpeg"; sourceTree = "<group>"; };
+		963AF4091EF4509100336C79 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		963AF40B1EF4514300336C79 /* RecordStore.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RecordStore.jpeg; sourceTree = "<group>"; };
+		963AF40D1EF4528300336C79 /* RecordSpin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RecordSpin.gif; path = ../RecordSpin.gif; sourceTree = "<group>"; };
+		963AF40F1EF454A200336C79 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		965B2BF01EF4646400131ED8 /* Empty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Empty.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				963AF3F21EF44ADF00336C79 /* AppDelegate.swift */,
 				963AF3F41EF44ADF00336C79 /* ViewController.swift */,
+				963AF4091EF4509100336C79 /* Launch.storyboard */,
+				963AF40F1EF454A200336C79 /* RecordViewController.swift */,
 				963AF3F61EF44ADF00336C79 /* Main.storyboard */,
 				963AF3FC1EF44ADF00336C79 /* Assets.xcassets */,
-				963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */,
 				963AF4011EF44ADF00336C79 /* Info.plist */,
 				963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */,
+				965B2BF01EF4646400131ED8 /* Empty.jpg */,
+				963AF40B1EF4514300336C79 /* RecordStore.jpeg */,
+				963AF4071EF44FA900336C79 /* Maggot Brain.jpeg */,
+				963AF40D1EF4528300336C79 /* RecordSpin.gif */,
 			);
 			path = WaxHead;
 			sourceTree = "<group>";
@@ -127,8 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963AF4001EF44ADF00336C79 /* LaunchScreen.storyboard in Resources */,
+				965B2BF11EF4646400131ED8 /* Empty.jpg in Resources */,
+				963AF4081EF44FA900336C79 /* Maggot Brain.jpeg in Resources */,
+				963AF40E1EF4528300336C79 /* RecordSpin.gif in Resources */,
+				963AF40A1EF4509100336C79 /* Launch.storyboard in Resources */,
 				963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */,
+				963AF40C1EF4514300336C79 /* RecordStore.jpeg in Resources */,
 				963AF3F81EF44ADF00336C79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +162,7 @@
 				963AF3F51EF44ADF00336C79 /* ViewController.swift in Sources */,
 				963AF3F31EF44ADF00336C79 /* AppDelegate.swift in Sources */,
 				963AF3FB1EF44ADF00336C79 /* WaxHead.xcdatamodeld in Sources */,
+				963AF4101EF454A200336C79 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,14 +175,6 @@
 				963AF3F71EF44ADF00336C79 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				963AF3FF1EF44ADF00336C79 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,6 +318,7 @@
 				963AF4061EF44ADF00336C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
