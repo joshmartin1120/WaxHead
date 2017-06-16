@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963AF3F31EF44ADF00336C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AF3F21EF44ADF00336C79 /* AppDelegate.swift */; };
+		963AF3F51EF44ADF00336C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AF3F41EF44ADF00336C79 /* ViewController.swift */; };
+		963AF3F81EF44ADF00336C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3F61EF44ADF00336C79 /* Main.storyboard */; };
+		963AF3FB1EF44ADF00336C79 /* WaxHead.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */; };
+		963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3FC1EF44ADF00336C79 /* Assets.xcassets */; };
+		963AF4001EF44ADF00336C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		963AF3EF1EF44ADF00336C79 /* WaxHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaxHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AF3F21EF44ADF00336C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963AF3F41EF44ADF00336C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963AF3F71EF44ADF00336C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963AF3FA1EF44ADF00336C79 /* WaxHead.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaxHead.xcdatamodel; sourceTree = "<group>"; };
+		963AF3FC1EF44ADF00336C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963AF3FF1EF44ADF00336C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963AF4011EF44ADF00336C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963AF3EC1EF44ADF00336C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963AF3E61EF44ADF00336C79 = {
+			isa = PBXGroup;
+			children = (
+				963AF3F11EF44ADF00336C79 /* WaxHead */,
+				963AF3F01EF44ADF00336C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963AF3F01EF44ADF00336C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963AF3EF1EF44ADF00336C79 /* WaxHead.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963AF3F11EF44ADF00336C79 /* WaxHead */ = {
+			isa = PBXGroup;
+			children = (
+				963AF3F21EF44ADF00336C79 /* AppDelegate.swift */,
+				963AF3F41EF44ADF00336C79 /* ViewController.swift */,
+				963AF3F61EF44ADF00336C79 /* Main.storyboard */,
+				963AF3FC1EF44ADF00336C79 /* Assets.xcassets */,
+				963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */,
+				963AF4011EF44ADF00336C79 /* Info.plist */,
+				963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */,
+			);
+			path = WaxHead;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963AF3EE1EF44ADF00336C79 /* WaxHead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AF4041EF44ADF00336C79 /* Build configuration list for PBXNativeTarget "WaxHead" */;
+			buildPhases = (
+				963AF3EB1EF44ADF00336C79 /* Sources */,
+				963AF3EC1EF44ADF00336C79 /* Frameworks */,
+				963AF3ED1EF44ADF00336C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaxHead;
+			productName = WaxHead;
+			productReference = 963AF3EF1EF44ADF00336C79 /* WaxHead.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963AF3E71EF44ADF00336C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joshua Martin";
+				TargetAttributes = {
+					963AF3EE1EF44ADF00336C79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N5DLB4MFXF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 963AF3EA1EF44ADF00336C79 /* Build configuration list for PBXProject "WaxHead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963AF3E61EF44ADF00336C79;
+			productRefGroup = 963AF3F01EF44ADF00336C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963AF3EE1EF44ADF00336C79 /* WaxHead */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963AF3ED1EF44ADF00336C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AF4001EF44ADF00336C79 /* LaunchScreen.storyboard in Resources */,
+				963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */,
+				963AF3F81EF44ADF00336C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963AF3EB1EF44ADF00336C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AF3F51EF44ADF00336C79 /* ViewController.swift in Sources */,
+				963AF3F31EF44ADF00336C79 /* AppDelegate.swift in Sources */,
+				963AF3FB1EF44ADF00336C79 /* WaxHead.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		963AF3F61EF44ADF00336C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AF3F71EF44ADF00336C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963AF3FE1EF44ADF00336C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AF3FF1EF44ADF00336C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963AF4021EF44ADF00336C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963AF4031EF44ADF00336C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963AF4051EF44ADF00336C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5DLB4MFXF;
+				INFOPLIST_FILE = WaxHead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoshMartin1120.WaxHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		963AF4061EF44ADF00336C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5DLB4MFXF;
+				INFOPLIST_FILE = WaxHead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoshMartin1120.WaxHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963AF3EA1EF44ADF00336C79 /* Build configuration list for PBXProject "WaxHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AF4021EF44ADF00336C79 /* Debug */,
+				963AF4031EF44ADF00336C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AF4041EF44ADF00336C79 /* Build configuration list for PBXNativeTarget "WaxHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AF4051EF44ADF00336C79 /* Debug */,
+				963AF4061EF44ADF00336C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				963AF3FA1EF44ADF00336C79 /* WaxHead.xcdatamodel */,
+			);
+			currentVersion = 963AF3FA1EF44ADF00336C79 /* WaxHead.xcdatamodel */;
+			path = WaxHead.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 963AF3E71EF44ADF00336C79 /* Project object */;
+}
