@@ -10,16 +10,26 @@ import UIKit
 
 class RecordViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        imagePicker.delegate = self
-        
-    }
+
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var recordImageView: UIImageView!
     
-    
     var imagePicker = UIImagePickerController()
+    var record : Record? = nil
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        imagePicker.delegate = self
+        
+        if record != nil {
+            recordImageView.image = UIImage(data: record?.image as! Data)
+            titleTextField.text = record!.title
+        } else {
+            print("oh dagnabit bois that aint a record")
+        }
+    }
+
     
     @IBAction func photosTapped(_ sender: Any) {
     imagePicker.sourceType = .photoLibrary
@@ -33,13 +43,13 @@ class RecordViewController: UIViewController, UIImagePickerControllerDelegate, U
         recordImageView.image = image
         recordImageView.alpha = 1
         
-        
         imagePicker.dismiss(animated: true, completion: nil)
     }
  
     @IBAction func cameraTapped(_ sender: Any) {
       
     }
+    
     @IBAction func addTapped(_ sender: Any) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -52,23 +62,5 @@ class RecordViewController: UIViewController, UIImagePickerControllerDelegate, U
         navigationController!.popViewController(animated: true)
         
     }
-   
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

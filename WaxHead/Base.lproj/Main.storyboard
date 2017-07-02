@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,23 +22,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ymy-Xq-0az">
-                                <rect key="frame" x="16" y="64" width="343" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView opaque="NO" clipsSubviews="YES" alpha="0.94999999999999996" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="92" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ymy-Xq-0az">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.80392156859999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="92" id="XJy-Cf-ZhU">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="92"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XJy-Cf-ZhU" id="uIb-5f-mZN">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.80392156862745101" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ymy-Xq-0az" secondAttribute="trailing" id="ABI-r4-WBy"/>
-                            <constraint firstItem="Ymy-Xq-0az" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cxy-bO-Oaq"/>
-                            <constraint firstItem="Ymy-Xq-0az" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OUn-jI-lpW"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ymy-Xq-0az" secondAttribute="bottom" id="RlP-i8-SFE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ymy-Xq-0az" secondAttribute="bottom" id="NAj-4F-Cgr"/>
+                            <constraint firstItem="Ymy-Xq-0az" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ebD-iS-AE4"/>
+                            <constraint firstItem="Ymy-Xq-0az" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gbz-4k-qsR"/>
+                            <constraint firstAttribute="trailing" secondItem="Ymy-Xq-0az" secondAttribute="trailing" id="jln-ub-h0k"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GCd-68-ILp">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zfT-Jy-0h6">
                             <connections>
-                                <segue destination="Ibi-nG-P5k" kind="show" id="4r9-47-W94"/>
+                                <segue destination="Ibi-nG-P5k" kind="show" identifier="recordSegue" id="4r9-47-W94"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -63,7 +72,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empty.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-4g-4bs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empty" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-4g-4bs">
                                 <rect key="frame" x="47" y="114" width="280" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="280" id="S7O-X5-yU3"/>
@@ -139,6 +148,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Empty.jpg" width="1392" height="1402"/>
+        <image name="Empty" width="1392" height="1402"/>
     </resources>
 </document>
