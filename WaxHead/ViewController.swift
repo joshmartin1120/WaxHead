@@ -59,5 +59,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         nextVC.record = sender as? Record
         
     }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            let record = records[indexPath.row]
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            context.delete(record)
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            do {
+                records = try context.fetch(Record.fetchRequest())
+                tableView.reloadData()
+            }catch{}
 } //final declaration
-
+    }
+}

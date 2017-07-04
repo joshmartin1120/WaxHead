@@ -14,6 +14,7 @@
 		963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AF3FC1EF44ADF00336C79 /* Assets.xcassets */; };
 		963AF40A1EF4509100336C79 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AF4091EF4509100336C79 /* Launch.storyboard */; };
 		963AF4101EF454A200336C79 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AF40F1EF454A200336C79 /* RecordViewController.swift */; };
+		96F7FF771F0BFA590082DB80 /* Swing_Lo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96F7FF761F0BFA590082DB80 /* Swing_Lo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		963AF4011EF44ADF00336C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963AF4091EF4509100336C79 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		963AF40F1EF454A200336C79 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		96F7FF761F0BFA590082DB80 /* Swing_Lo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Swing_Lo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 				963AF3F21EF44ADF00336C79 /* AppDelegate.swift */,
 				963AF3F41EF44ADF00336C79 /* ViewController.swift */,
 				963AF40F1EF454A200336C79 /* RecordViewController.swift */,
-				963AF4091EF4509100336C79 /* Launch.storyboard */,
 				963AF3F61EF44ADF00336C79 /* Main.storyboard */,
+				963AF4091EF4509100336C79 /* Launch.storyboard */,
 				963AF3FC1EF44ADF00336C79 /* Assets.xcassets */,
+				96F7FF761F0BFA590082DB80 /* Swing_Lo.jpeg */,
 				963AF4011EF44ADF00336C79 /* Info.plist */,
 				963AF3F91EF44ADF00336C79 /* WaxHead.xcdatamodeld */,
 			);
@@ -133,6 +136,7 @@
 				963AF40A1EF4509100336C79 /* Launch.storyboard in Resources */,
 				963AF3FD1EF44ADF00336C79 /* Assets.xcassets in Resources */,
 				963AF3F81EF44ADF00336C79 /* Main.storyboard in Resources */,
+				96F7FF771F0BFA590082DB80 /* Swing_Lo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

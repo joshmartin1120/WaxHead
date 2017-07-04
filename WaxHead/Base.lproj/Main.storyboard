@@ -72,14 +72,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empty" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-4g-4bs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-4g-4bs">
                                 <rect key="frame" x="47" y="114" width="280" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="280" id="S7O-X5-yU3"/>
                                     <constraint firstAttribute="width" constant="280" id="kxj-zL-m9e"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K7f-y1-Fvg">
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K7f-y1-Fvg">
                                 <rect key="frame" x="47.5" y="419" width="280" height="30"/>
                                 <color key="backgroundColor" red="0.22745098039215686" green="0.46666666666666667" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.79109882234507634" green="0.81827195891656201" blue="0.87514505968169765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,7 +147,4 @@
             <point key="canvasLocation" x="-49" y="123"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Empty" width="1392" height="1402"/>
-    </resources>
 </document>

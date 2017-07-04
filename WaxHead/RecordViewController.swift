@@ -24,7 +24,7 @@ class RecordViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         if record != nil {
             recordImageView.image = UIImage(data: record?.image as! Data)
-            titleTextField.text = record!.title
+            titleTextField.text = record?.title
         } else {
             print("oh dagnabit bois that aint a record")
         }
